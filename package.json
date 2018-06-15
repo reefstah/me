@@ -1,0 +1,32 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/reef/me.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/reef/me/issues"
+  },
+  "homepage": "https://gitlab.com/reef/me#README",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "vue-server-renderer": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.5.16"
+  }
+}
