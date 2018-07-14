@@ -1,13 +1,14 @@
 import Vue from 'vue';
 import fetch from 'isomorphic-fetch';
 
-const message = 'hello';
 
 // Step 1: Create a Vue instance
 const app = new Vue({
   render(h) {
-    return <div id="app">{message}</div>;
-  },
+	  return <App
+	  		message="good bye"
+		  />;
+  }
 });
 
 // Step 2: Create a renderer

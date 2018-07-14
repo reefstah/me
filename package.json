@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "babel src",
     "build": "mkdir -p dist && babel src | node > dist/index.html",
     "start": "nodemon --ignore dist --exec npm run build"
   },
